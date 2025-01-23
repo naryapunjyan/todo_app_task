@@ -1,0 +1,12 @@
+{
+  "search.exclude": {
+    "**/.fvm": true
+  },
+  "files.watcherExclude": {
+    "**/.fvm": true
+  },
+  "dart.runPubGetOnPubspecChanges": "never",
+  "dart.lineLength": 120,
+  "java.configuration.updateBuildConfiguration": "interactive",
+  "dart.flutterSdkPath": ".fvm/versions/3.27.1"
+}

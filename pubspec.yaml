@@ -1,0 +1,33 @@
+name: todo_app_task
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  data:
+    path: ./packages/data
+  domain:
+    path: ./packages/domain
+  shared:
+    path: ./packages/shared
+  rxdart: ^0.28.0
+  auto_route: ^9.3.0+1
+  freezed: ^2.5.8
+  freezed_annotation: ^2.4.4
+  flutter_bloc: ^9.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  auto_route_generator: ^9.0.0
+  flutter_lints: ^4.0.0
+  build_runner: ^2.4.14
+
+flutter:
+  uses-material-design: true

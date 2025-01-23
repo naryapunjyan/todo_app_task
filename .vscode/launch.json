@@ -1,0 +1,12 @@
+{
+    "version": "0.1.0",
+    "configurations": [
+        {
+          "name": "TODO APP (Debug)",
+          "request": "launch",
+          "type": "dart",
+          "program": "lib/main.dart",
+          "flutterMode": "debug"
+        },
+    ],
+}
